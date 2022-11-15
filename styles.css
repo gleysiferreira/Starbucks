@@ -32,7 +32,8 @@ h2 {
   width: 600px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 250px;
+  margin-top: 100px;
+  animation: moveImage 4s infinite alternate-reverse;
 }
 
 .menu {
@@ -65,7 +66,7 @@ button {
 }
 
 .starbucks {
-  width: 340px;
+  width: 250px;
 }
 
 .button-menu {
@@ -88,4 +89,11 @@ button {
   left: 0;
   clip-path: circle(600px at right 800px);
   z-index: -1;
+}
+
+@keyframes moveImage {
+  from {
+      transform: rotate(20deg);
+  }
+
 }
