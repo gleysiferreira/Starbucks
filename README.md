@@ -1,6 +1,6 @@
 # Starbucks
 
-<img src="./assets/Starbucks.jpeg">
+<img src="./assets/starbucks.jpeg">
 
 
 > Pagina Do Starbucks
